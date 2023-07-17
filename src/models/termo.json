@@ -98,13 +98,14 @@
       "area": "geral",
       "exemplos": "exemplos"
     },
-      {
-        "inicial": "G",
-        "termo": "Get",
-        "traducao": "Pegar",
-        "significado": "Usado para denominar o que o código precisa responder.",
-        "exemplos": "exemplos"
-      }
+    {
+      "inicial": "G",
+      "termo": "Get",
+      "traducao": "Pegar",
+      "significado": "Usado para denominar o que o código precisa responder.",
+      "exemplos": "exemplos",
+      "area": "geral"
+    }
   ],
 
   "H": [
@@ -187,6 +188,15 @@
       "significado": "(Model View Controller) Padrão de arquitetura de software que sugere uma divisão de responsabilidades dentro de uma aplicação.",
       "area": "back-end",
       "exemplos": "exemplos"
+    },
+
+    {
+      "inicial": "M",
+      "termo": "Main",
+      "traducao": "Menu",
+      "significado": "A função main serve como o ponto de partida para a execução do programa.",
+      "area": "back-end",
+      "exemplos": "Em geral, ela controla a execução direcionando as chamadas para outras funções no programa."
     }
   ],
 
@@ -201,13 +211,24 @@
     }
   ],
 
+  "O": [
+    {
+      "inicial": "O",
+      "termo": "Optional",
+      "traducao": "Opção",
+      "significado": "é um termo que geralmente se refere a uma escolha, configuração ou parâmetro que permite personalizar o comportamento de um programa ou função.",
+      "area": "Front-End",
+      "exemplos": "exemplos"
+    }
+  ],
+
   "P": [
     {
       "inicial": "P",
       "termo": "Persona",
       "traducao": "pessoa",
       "significado": "Personagem fictício utilizado para representar o público-alvo de um negócio ou mesmo de um produto. A sua caracterização deve ser detalhada a ponto de representar um “usuário ideal”, e a sua construção deve se basear em dados de pesquisa.",
-      "area": "UX/UI",
+      "area": "UX-UI",
       "exemplos": "exemplos"
     },
 
@@ -216,8 +237,39 @@
       "termo": "Prototype",
       "traducao": "Protótipo",
       "significado": "Versão simplificada de um produto, muitas vezes utilizado para testes, seja de viabilidade, usabilidade ou outros.",
-      "area": "UX/UI",
+      "area": "UX-UI",
       "exemplos": "exemplos"
+    },
+
+    {
+      "inicial": "P",
+      "termo": "Player",
+      "traducao": "Reprodutor",
+      "significado": "Utilizado no html para definir uma apresentação de video.",
+      "area": "Front-End",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "Q": [
+    {
+      "inicial": "Q",
+      "termo": "Query",
+      "traducao": "Consulta",
+      "significado": " É uma solicitação de informações feita ao banco de dados. que retorna uma tabela ou um conjunto delas, figuras, gráficos ou resultados complexos.",
+      "area": "back-end",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "R": [
+    {
+      "inicial": "R",
+      "termo": "Router",
+      "traducao": "Rota",
+      "significado": "Utilizado para definir qual a rota que será seguida no código.",
+      "area": "back-end",
+      "exemplos": "Rota usada para pegar Id de um banco de dados"
     }
   ],
 
@@ -236,7 +288,27 @@
       "termo": "Storyboard:",
       "traducao": "Quadro de histórias(?)",
       "significado": "Esboço em formato de desenhos (quadro a quadro), utilizado para planejar algum conteúdo em vídeo, elaborando-o e detalhando-o.",
-      "area": "UX/UI",
+      "area": "UX-UI",
+      "exemplos": "exemplos"
+    },
+
+    {
+      "inicial": "S",
+      "termo": "Style",
+      "traducao": "Estilo",
+      "significado": "Comando que adiciona diagramação no html",
+      "area": "Front-End",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "T": [
+    {
+      "inicial": "T",
+      "termo": "Tag",
+      "traducao": "Marcação",
+      "significado": "Utilizado para definir um marcador no campo do texto",
+      "area": "Front-End",
       "exemplos": "exemplos"
     }
   ],
@@ -247,7 +319,51 @@
       "termo": "User Research:",
       "traducao": "Pesquisa de usuário",
       "significado": "Processo de estudo do usuário, envolvendo a descoberta das suas necessidades e das suas dores, para obter insights certeiros para o desenvolvimento do produto.",
-      "area": "UX/UI",
+      "area": "UX-UI",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "V": [
+    {
+      "inicial": "V",
+      "termo": "Varchar",
+      "traducao": "Campo de caráter variável. ",
+      "significado": "Utilizado para denominar um tipo de dados de um campo ou coluna em um sistema de gerenciamento de banco de dados que pode conter letras e números.",
+      "area": "UX-UI",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "W": [
+    {
+      "inicial": "W",
+      "termo": "Width",
+      "traducao": "Largura",
+      "significado": "Usado para definir altura da foto ou player de vídeo",
+      "area": "Front-End",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "X": [
+    {
+      "inicial": "X",
+      "termo": "XML",
+      "traducao": "Sigla para: Linguagem de marcação extensiva",
+      "significado": " para formatar documentos de forma que eles sejam facilmente lidos tanto por humanos quanto por máquinas.",
+      "area": "geral",
+      "exemplos": "exemplos"
+    }
+  ],
+
+  "Z": [
+    {
+      "inicial": "Z",
+      "termo": "Zipar",
+      "traducao": "Compactar",
+      "significado": "Ocupam menos espaço de armazenamento e podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados",
+      "area": "geral",
       "exemplos": "exemplos"
     }
   ]

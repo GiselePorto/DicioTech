@@ -1,13 +1,44 @@
 import termos from "../models/termos.js";
 
 class TermoController {
-  static getAllTermo = (req, res) => {
+  static getAllTermos = (req, res) => {
     termos.find((err, termos) => {
       res.status(200).json(termos);
     });
   };
 
-  static createTermo = (req, res) => {
+  static getTermosByArea = (req, res) => {
+    let area = req.params.area;
+
+    termos.find({ area: area }, (err, termos) => {
+      if (err) {
+        res.status(400).send({
+          message: `${err.message} - Não há termos com essa área.`,
+        });
+      } else {
+        res.status(200).json(termos);
+      }
+    });
+  };
+
+  static getTermosByInicial = (req, res) => {
+    const inicial = req.params.inicial;
+
+    termos.find(
+      { termo: { $regex: `^${inicial}`, $options: "i" } },
+      (err, termos) => {
+        if (err) {
+          res.status(400).send({
+            message: `${err.message} - Não há termos com essa inicial.`,
+          });
+        } else {
+          res.status(200).json(termos);
+        }
+      }
+    );
+  };
+
+  static createTermos = (req, res) => {
     let termo = new termos(req.body);
 
     termo.save((err) => {
@@ -21,13 +52,13 @@ class TermoController {
     });
   };
 
-  static getAllTermo = (req, res) => {
+  static getAllTermos = (req, res) => {
     termos.find((err, termos) => {
       res.status(200).json(termos);
     });
   };
 
-  static getByIdTermo = (req, res) => {
+  static getByIdTermos = (req, res) => {
     const id = req.params.id;
 
     termos.findById(id, (err, termos) => {
@@ -41,7 +72,7 @@ class TermoController {
     });
   };
 
-  static updateTermo = (req, res) => {
+  static updateTermos = (req, res) => {
     const id = req.params.id;
 
     termos.findByIdAndUpdate(id, { $set: req.body }, (err) => {
@@ -53,7 +84,7 @@ class TermoController {
     });
   };
 
-  static deleteTermo = (req, res) => {
+  static deleteTermos = (req, res) => {
     const id = req.params.id;
 
     termos.findByIdAndDelete(id, (err) => {

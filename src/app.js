@@ -1,4 +1,5 @@
-import express, { json } from "express"; //importando o express
+// Importando dependências
+import express, { json } from "express"; 
 import index from "./routes/index.js";
 import db from "./config/dbConnect.js";
 import termos from "./routes/termo.js";

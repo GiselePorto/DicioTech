@@ -1,13 +1,16 @@
 import express from "express";
 import TermoController from "../controllers/termoControllers.js";
 
+// importando Dependências
 const router = express.Router();
 
 router
-   .get("/", TermoController.getAllTermo)
-   .post("/", TermoController.createTermo)
-   .put("/:id", TermoController.updateTermo)
-   .delete("/:id", TermoController.deleteTermo)
-   .get("/:id", TermoController.getByIdTermo)
+  .get("/", TermoController.getAllTermos)
+  .post("/", TermoController.createTermos)
+  .put("/:id", TermoController.updateTermos)
+  .delete("/:id", TermoController.deleteTermos)
+  .get("/:id", TermoController.getByIdTermos)
+  .get("/area/:area", TermoController.getTermosByArea)
+  .get("/inicial/:inicial", TermoController.getTermosByInicial);
 
 export default router;
