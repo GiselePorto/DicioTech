@@ -9,6 +9,7 @@ router
   .post("/", TermoController.createTermos)
   .put("/:id", TermoController.updateTermos)
   .delete("/:id", TermoController.deleteTermos)
+  .delete("/",TermoController.deleteAllTermos)
   .get("/:id", TermoController.getByIdTermos)
   .get("/area/:area", TermoController.getTermosByArea)
   .get("/inicial/:inicial", TermoController.getTermosByInicial);
