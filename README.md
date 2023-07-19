@@ -81,7 +81,7 @@ Este projeto está com os métodos HTTP organizados. Você pode testar as rotas 
 
 ## :on: Testando Rotas
 
-(video testando rotas)
+https://github.com/GiselePorto/DicioTech/assets/132604471/0564ec01-3eb7-4d63-b3f2-6cf2a62d6705
 
 ## Os métodos e rotas serão:
 
