@@ -1,6 +1,10 @@
-# :books: DicioTech - Documentação Tecnica
+# :books: DicioTech - Documentação Tecnica Back-End
 
-### Arquitetura, Funcionalidades e Demonstração da Aplicação
+<br>
+
+### Arquitetura, Funcionalidades e Demonstração da Aplicação do projeto Diciotech, desenvolvido por alunas do Senac em parceria com Porto Digital.
+
+<br>
 
 ## :ledger: Tecnologias Utilizadas
 
@@ -13,6 +17,8 @@
 | `Mongo Atlas` | Interface gráfica para verificar se os dados foram persistidos. |
 | `Postman`     | Interface gráfica para realizar os testes.                      |
 
+<br>
+
 ## :bookmark: Pacotes Utilizados
 
 | Ferramenta | Descrição                                                                                                |
@@ -20,6 +26,9 @@
 | `express`  | Framework NodeJS.                                                                                        |
 | `mongoose` | Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections.   |
 | `nodemon`  | Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente. |
+| `npm`      | Gerenciador de pacotes.                                                                                  |
+
+<br>
 
 ---
 
@@ -31,6 +40,11 @@
    |--📁node_modules
    |
    |--📁 src
+   |
+   |  ||--📁 assets
+   |  |    |- 📄 testandorotas.mp4
+   |  |    |- 📄 models.png
+   |  |    |- 📄 termos.png
    |  ||
    |  ||--📁 config
    |  |    |- 📄 dbConnect.js
@@ -57,29 +71,56 @@
 
 ```
 
+<br>
+
 ## :repeat_one: Interface Gráfica Para Realizar os Testes
 
 Este projeto está com os métodos HTTP organizados. Você pode testar as rotas Get, Post,Delete e Update através de qualquer ferramenta API REST, como Insomnia, Thunder Client, Postman, entre outros. Nesse projeto, utilizamos o [Postman](https://www.postman.com/downloads/).
 
+<br>
+
 ## :on: Testando Rotas
 
- <h3> Os métodos e rotas serão:</h3>
+(video testando rotas)
 
-| Verbo  | EndPoint | Descrição do Rota                               |
-| ------ | -------- | ----------------------------------------------- |
-| GET    | /Termos  | Listar todos as Termos cadastrados              |
-| GET    | /:id     | Mostra o cadastro do Termo por ID               |
-| POST   | /        | Registra um novo Termo                          |
-| PUT    | /:id     | Altera dados do Termo identificado pelo id      |
-| DELETE | /:id     | Remove o cadastro do Termo identificado pelo id |
+## Os métodos e rotas serão:
+
+| Verbo  | EndPoint  | Descrição do Rota                               |
+| ------ | --------- | ----------------------------------------------- |
+| GET    | /Termos   | Listar todos as Termos cadastrados              |
+| GET    | /:id      | Mostra o cadastro do Termo por ID               |
+| GET    | /:Area    | Mostra o cadastro do Termo por Categoria        |
+| GET    | /:Inicial | Mostra o cadastro do Termo por Categoria        |
+| POST   | /:id      | Registra um novo Termo                          |
+| PUT    | /:id      | Altera dados do Termo identificado pelo ID      |
+| DELETE | /:id      | Remove o cadastro do Termo identificado pelo ID |
+| DELETE | /Termos   | Remove o cadastro de todos os termos            |
+
+<br>
+
+## Modelo de Esquema Mongoose para Termos
+
+![](./src/assets/models.png)
+
+<br>
+
+## Exemplo de Inserção de Dados
+
+![](./src/assets/termos.png)
+
+<br>
 
 ## :heavy_plus_sign: Clonar e Contribuir para o Projeto
 
 Este documento fornece instruções técnicas sobre como com o projeto. O processo de clonar e contribuir, envolve o uso de comandos do Git para clonar o repositório, criar uma ramificação, fazer alterações e enviar um pedido de pull. Siga as etapas abaixo para começar:
 
+<br>
+
 ## :warning: Pré-requisitos
 
 Antes de prosseguir, certifique-se de ter o Git instalado no seu sistema. Caso contrário, você pode baixá-lo e instalá-lo a partir do site oficial do Git (https://git-scm.com/).
+
+<br>
 
 ### Clonar o Repositório
 
@@ -93,6 +134,8 @@ Antes de prosseguir, certifique-se de ter o Git instalado no seu sistema. Caso c
 git clone https://github.com/DevasSenac/DicioTech.git
 ```
 
+<br>
+
 ### Criar uma Ramificação (Branch)
 
 1. Navegue para o diretório do projeto clonado usando o comando `cd DicioTech`.
@@ -105,11 +148,15 @@ git checkout -b <nome_da_branch>
 
 Substitua `<nome_da_branch>` pelo nome descritivo da branch que você deseja criar.
 
+<br>
+
 ### Fazer Alterações
 
 1. Abra o projeto clonado em seu editor de código.
 
 2. Faça as alterações desejadas nos arquivos.
+
+<br>
 
 ### Commit das Alterações
 
@@ -127,6 +174,8 @@ _ 3. Em seguida, execute o seguinte comando para criar um commit com uma mensage
 ```git
 git commit -m "Mensagem do commit"
 ```
+
+<br>
 
 ### Enviar um Pedido de Pull Request
 
@@ -146,8 +195,56 @@ Substitua `<main>` pelo nome da branch que você criou anteriormente.
 
 5. Clique em "Create pull request" para enviar o pedido de pull.
 
+<br>
+
+## :triangular_flag_on_post: Implementações Futuras 
+
+- Implementar mais rotas para a busca de termos.
+
+- Integrar banco de dados com Quiz interativo.
+
+- Utilizar de dados para futura Gameficação do Diciotech.
+
+- Expandir Diciotech para outras áreas, consequentemente, seu banco de dados.
+
+ <br>
+
 ## :triangular_flag_on_post: Status Do Projeto
 
 O projeto encontra-se em desenvolvimento, o que significa que novas funcionalidades e melhorias estão sendo integradas continuamente. Fique à vontade para acompanhar o repositório para obter as últimas atualizações e contribuir com o projeto.
+
+<br>
+
+## Autoras :
+
+## Delis Glória
+
+- [Linkedin](https://www.linkedin.com/in/delis-guerra-46b63614a/)
+- [Github](https://github.com/DelisG)
+
+## Ingrid
+
+- [Linkedin](https://www.linkedin.com/in/ingridecsilva/)
+- [Github](https://github.com/diimartell)
+
+## Glaucy
+
+- [Linkedin](https://www.linkedin.com/in/glaucy-ara%C3%BAjo-b97a80b1/?originalSubdomain=br)
+- [Github](https://github.com/glaucyaraujo)
+
+## Renata Silvestre
+
+- [Linkedin](https://www.linkedin.com/in/renatasilvestr3/)
+- [Github](https://github.com/renatasilvestr3)
+
+## Geovanna Lima
+
+- [Linkedin](https://www.linkedin.com/in/geovanawlima/)
+- [Github](https://github.com/geovanaw)
+
+## Gisele Porto
+
+- [Linkedin](https://www.linkedin.com/in/giseleporto/)
+- [Github](https://github.com/GiselePorto)
 
 </span>

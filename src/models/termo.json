@@ -1,17 +1,13 @@
 {
-  "A": [
-    {
-      "inicial": "A",
-      "termo": "API",
-      "traducao": "Interface de Programação de Aplicação",
-      "significado": "As APIs são um conjunto de padrões que fazem parte de uma interface. As APIs permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. A partir de APIs, é possível criar softwares, aplicativos, programas e plataformas diversas.",
-      "area": "back-end",
-      "exemplos": " Por exemplo, apps desenvolvidos para celulares Android e iPhone (iOS) são criados a partir de padrões definidos e disponibilizados pelas APIs de cada sistema operacional."
-    }
-  ],
-
-  "B": [
-    {
+  "A": [{
+    "inicial": "A",
+    "termo": "API",
+    "traducao": "Interface de Programação de Aplicação",
+    "significado": "As APIs são um conjunto de padrões que fazem parte de uma interface. As APIs permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. A partir de APIs, é possível criar softwares, aplicativos, programas e plataformas diversas.",
+    "area": "back-end",
+    "exemplos": " Por exemplo, apps desenvolvidos para celulares Android e iPhone (iOS) são criados a partir de padrões definidos e disponibilizados pelas APIs de cada sistema operacional."
+  }],
+  "B": [{
       "inicial": "B",
       "termo": "Browser",
       "traducao": "navegador",
@@ -28,9 +24,7 @@
       "exemplos": "Imagine que você está construindo um aplicativo de cadastro de usuários. Quando um novo usuário preenche o formulário de registro e envia os dados, uma requisição POST é feita ao servidor. Os dados do usuário, como nome, email e senha, são incluídos no <body> dessa requisição."
     }
   ],
-
-  "C": [
-    {
+  "C": [{
       "inicial": "C",
       "termo": "codar",
       "traducao": "programar",
@@ -38,7 +32,6 @@
       "area": "geral",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "C",
       "termo": "cost",
@@ -48,9 +41,7 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "D": [
-    {
+  "D": [{
       "inicial": "D",
       "termo": "Debugging",
       "traducao": "debugar",
@@ -58,7 +49,6 @@
       "area": "geral",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "D",
       "termo": "Doctype",
@@ -68,9 +58,7 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "F": [
-    {
+  "F": [{
       "inicial": "F",
       "termo": "frameworks",
       "traducao": "estrutura",
@@ -78,7 +66,6 @@
       "area": "back-end",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "F",
       "termo": "Form",
@@ -88,9 +75,7 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "G": [
-    {
+  "G": [{
       "inicial": "G",
       "termo": "Git",
       "traducao": "",
@@ -107,9 +92,7 @@
       "area": "geral"
     }
   ],
-
-  "H": [
-    {
+  "H": [{
       "inicial": "H",
       "termo": "HTML",
       "traducao": "Linguagem de Marcação de HiperTexto",
@@ -126,42 +109,31 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "I": [
-    {
-      "inicial": "I",
-      "termo": "Input",
-      "traducao": "Entrada",
-      "significado": "Usado para denominar do dado de entrada da programação",
-      "area": "back-end",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "J": [
-    {
-      "inicial": "J",
-      "termo": "JavaScript",
-      "traducao": "",
-      "significado": "Linguagem utilizada para programação que permite a criação de conteúdos dinâmicos",
-      "area": "back-end",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "K": [
-    {
-      "inicial": "K",
-      "termo": "Keyword",
-      "traducao": "Palavra-chave",
-      "significado": "Forma como um usuário escreve sua dúvida nos buscadores com o intuito de obter respostas e concluir suas pesquisas.",
-      "area": "back-end",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "L": [
-    {
+  "I": [{
+    "inicial": "I",
+    "termo": "Input",
+    "traducao": "Entrada",
+    "significado": "Usado para denominar do dado de entrada da programação",
+    "area": "back-end",
+    "exemplos": "exemplos"
+  }],
+  "J": [{
+    "inicial": "J",
+    "termo": "JavaScript",
+    "traducao": "",
+    "significado": "Linguagem utilizada para programação que permite a criação de conteúdos dinâmicos",
+    "area": "back-end",
+    "exemplos": "exemplos"
+  }],
+  "K": [{
+    "inicial": "K",
+    "termo": "Keyword",
+    "traducao": "Palavra-chave",
+    "significado": "Forma como um usuário escreve sua dúvida nos buscadores com o intuito de obter respostas e concluir suas pesquisas.",
+    "area": "back-end",
+    "exemplos": "exemplos"
+  }],
+  "L": [{
       "inicial": "L",
       "termo": "Library",
       "traducao": "Bibliotecas",
@@ -169,7 +141,6 @@
       "area": "back-end",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "L",
       "termo": "Label",
@@ -179,9 +150,7 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "M": [
-    {
+  "M": [{
       "inicial": "M",
       "termo": "MVC",
       "traducao": "controlador de exibição de modelo",
@@ -189,7 +158,6 @@
       "area": "back-end",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "M",
       "termo": "Main",
@@ -199,31 +167,23 @@
       "exemplos": "Em geral, ela controla a execução direcionando as chamadas para outras funções no programa."
     }
   ],
-
-  "N": [
-    {
-      "inicial": "N",
-      "termo": "Name",
-      "traducao": "Nome",
-      "significado": "Função utilizada para obter ou definir o nome de um objeto.",
-      "area": "back-end",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "O": [
-    {
-      "inicial": "O",
-      "termo": "Optional",
-      "traducao": "Opção",
-      "significado": "é um termo que geralmente se refere a uma escolha, configuração ou parâmetro que permite personalizar o comportamento de um programa ou função.",
-      "area": "Front-End",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "P": [
-    {
+  "N": [{
+    "inicial": "N",
+    "termo": "Name",
+    "traducao": "Nome",
+    "significado": "Função utilizada para obter ou definir o nome de um objeto.",
+    "area": "back-end",
+    "exemplos": "exemplos"
+  }],
+  "O": [{
+    "inicial": "O",
+    "termo": "Optional",
+    "traducao": "Opção",
+    "significado": "é um termo que geralmente se refere a uma escolha, configuração ou parâmetro que permite personalizar o comportamento de um programa ou função.",
+    "area": "Front-End",
+    "exemplos": "exemplos"
+  }],
+  "P": [{
       "inicial": "P",
       "termo": "Persona",
       "traducao": "pessoa",
@@ -231,7 +191,6 @@
       "area": "UX-UI",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "P",
       "termo": "Prototype",
@@ -240,7 +199,6 @@
       "area": "UX-UI",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "P",
       "termo": "Player",
@@ -250,31 +208,23 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "Q": [
-    {
-      "inicial": "Q",
-      "termo": "Query",
-      "traducao": "Consulta",
-      "significado": " É uma solicitação de informações feita ao banco de dados. que retorna uma tabela ou um conjunto delas, figuras, gráficos ou resultados complexos.",
-      "area": "back-end",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "R": [
-    {
-      "inicial": "R",
-      "termo": "Router",
-      "traducao": "Rota",
-      "significado": "Utilizado para definir qual a rota que será seguida no código.",
-      "area": "back-end",
-      "exemplos": "Rota usada para pegar Id de um banco de dados"
-    }
-  ],
-
-  "S": [
-    {
+  "Q": [{
+    "inicial": "Q",
+    "termo": "Query",
+    "traducao": "Consulta",
+    "significado": " É uma solicitação de informações feita ao banco de dados. que retorna uma tabela ou um conjunto delas, figuras, gráficos ou resultados complexos.",
+    "area": "back-end",
+    "exemplos": "exemplos"
+  }],
+  "R": [{
+    "inicial": "R",
+    "termo": "Router",
+    "traducao": "Rota",
+    "significado": "Utilizado para definir qual a rota que será seguida no código.",
+    "area": "back-end",
+    "exemplos": "Rota usada para pegar Id de um banco de dados"
+  }],
+  "S": [{
       "inicial": "S",
       "termo": "section",
       "traducao": "seção",
@@ -282,7 +232,6 @@
       "area": "front-end",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "S",
       "termo": "Storyboard:",
@@ -291,7 +240,6 @@
       "area": "UX-UI",
       "exemplos": "exemplos"
     },
-
     {
       "inicial": "S",
       "termo": "Style",
@@ -301,70 +249,52 @@
       "exemplos": "exemplos"
     }
   ],
-
-  "T": [
-    {
-      "inicial": "T",
-      "termo": "Tag",
-      "traducao": "Marcação",
-      "significado": "Utilizado para definir um marcador no campo do texto",
-      "area": "Front-End",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "U": [
-    {
-      "inicial": "U",
-      "termo": "User Research:",
-      "traducao": "Pesquisa de usuário",
-      "significado": "Processo de estudo do usuário, envolvendo a descoberta das suas necessidades e das suas dores, para obter insights certeiros para o desenvolvimento do produto.",
-      "area": "UX-UI",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "V": [
-    {
-      "inicial": "V",
-      "termo": "Varchar",
-      "traducao": "Campo de caráter variável. ",
-      "significado": "Utilizado para denominar um tipo de dados de um campo ou coluna em um sistema de gerenciamento de banco de dados que pode conter letras e números.",
-      "area": "UX-UI",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "W": [
-    {
-      "inicial": "W",
-      "termo": "Width",
-      "traducao": "Largura",
-      "significado": "Usado para definir altura da foto ou player de vídeo",
-      "area": "Front-End",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "X": [
-    {
-      "inicial": "X",
-      "termo": "XML",
-      "traducao": "Sigla para: Linguagem de marcação extensiva",
-      "significado": " para formatar documentos de forma que eles sejam facilmente lidos tanto por humanos quanto por máquinas.",
-      "area": "geral",
-      "exemplos": "exemplos"
-    }
-  ],
-
-  "Z": [
-    {
-      "inicial": "Z",
-      "termo": "Zipar",
-      "traducao": "Compactar",
-      "significado": "Ocupam menos espaço de armazenamento e podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados",
-      "area": "geral",
-      "exemplos": "exemplos"
-    }
-  ]
+  "T": [{
+    "inicial": "T",
+    "termo": "Tag",
+    "traducao": "Marcação",
+    "significado": "Utilizado para definir um marcador no campo do texto",
+    "area": "Front-End",
+    "exemplos": "exemplos"
+  }],
+  "U": [{
+    "inicial": "U",
+    "termo": "User Research:",
+    "traducao": "Pesquisa de usuário",
+    "significado": "Processo de estudo do usuário, envolvendo a descoberta das suas necessidades e das suas dores, para obter insights certeiros para o desenvolvimento do produto.",
+    "area": "UX-UI",
+    "exemplos": "exemplos"
+  }],
+  "V": [{
+    "inicial": "V",
+    "termo": "Varchar",
+    "traducao": "Campo de caráter variável. ",
+    "significado": "Utilizado para denominar um tipo de dados de um campo ou coluna em um sistema de gerenciamento de banco de dados que pode conter letras e números.",
+    "area": "UX-UI",
+    "exemplos": "exemplos"
+  }],
+  "W": [{
+    "inicial": "W",
+    "termo": "Width",
+    "traducao": "Largura",
+    "significado": "Usado para definir altura da foto ou player de vídeo",
+    "area": "Front-End",
+    "exemplos": "exemplos"
+  }],
+  "X": [{
+    "inicial": "X",
+    "termo": "XML",
+    "traducao": "Sigla para: Linguagem de marcação extensiva",
+    "significado": " para formatar documentos de forma que eles sejam facilmente lidos tanto por humanos quanto por máquinas.",
+    "area": "geral",
+    "exemplos": "exemplos"
+  }],
+  "Z": [{
+    "inicial": "Z",
+    "termo": "Zipar",
+    "traducao": "Compactar",
+    "significado": "Ocupam menos espaço de armazenamento e podem ser transferidos para outros computadores mais rapidamente do que arquivos não compactados",
+    "area": "geral",
+    "exemplos": "exemplos"
+  }]
 }
