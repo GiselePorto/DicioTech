@@ -211,7 +211,7 @@ Substitua `<main>` pelo nome da branch que você criou anteriormente.
 
 ## :triangular_flag_on_post: Status Do Projeto
 
-O projeto encontra-se em desenvolvimento, o que significa que novas funcionalidades e melhorias estão sendo integradas continuamente. Fique à vontade para acompanhar o repositório para obter as últimas atualizações e contribuir com o projeto.
+O projeto está concluído, o que significa que novas funcionalidades e melhorias foram  integradas com sucesso. Fique à vontade para acompanhar o repositório para obter as últimas atualizações e contribuir com o projeto.
 
 <br>
 
